@@ -97,7 +97,7 @@ public:
             int i;
             node* temp1=phead;
             if(n==1){
-                phead = null;
+                phead = (temp1->next);
             }
             else{
             for(i=1;i<(n-1);i++){
